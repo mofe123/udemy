@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .header-wrapper {
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  .header-img {
+    padding-left: 20px;
+    padding-top: 16px;
+    float: left;
+  }
+  input {
+    background-image: url(./images/svgexport-2.svg);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    height: 50px;
+    border: 1px solid #1c1d1f;
+    border-radius: 9999px;
+    background-color: #f7f9fa;
+    margin: 10px 17px;
+    width: 15cm;
+  }
+  #placeholder {
+    padding-left: 50px;
+  }
+  .header_words {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1rem;
+    color: #1c1d1f;
+    margin-top: 8px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .shopping-icon {
+    margin-top: 8px;
+    padding: 10px 5px;
+  }
+  .login-btn {
+    background-color: white;
+    color: #1c1d1f;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1rem;
+  }
+  .signup-btn {
+    color: white;
+    background-color: #1c1d1f;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1rem;
+  }
+  .lang-btn {
+    background-color: white;
+    color: #1c1d1f;
+    padding: 5px 10px;
+  }
+  .header-btns {
+    padding: 10px 8px;
+  }
+  .header-wrapper {
+    border: 5px white;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+  }
+  .first-page-img .overlay {
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    top: 120px;
+    left: 50px;
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+  }
+  .first-page-img img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  .broad {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+    padding-top: 40px;
+  }
+  .choose {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    padding-top: 20px;
+  }
+  .second-text {
+    padding-left: 20px;
+  }
+  .f-section {
+    padding: 5px 30px;
+    background: #f7f9fa;
+  }
+  .f-content {
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+  }
+  .featured {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+  }
+  #feat-topic {
+    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+      segoe ui symbol;
+    padding-bottom: 20px;
+  }
+  .txt {
+    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+      segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02rem;
+    font-size: 20px;
+    /* margin-bottom: 1.6rem; */
+  }
+  .subtxt {
+    color: #5624d0;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 25px;
+  }
+  .txt-num {
+    display: block;
+    font-size: 15px;
+    color: #6a6f73;
+    margin-top: 10px;
+  }
+  .explore-btn {
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    width: auto;
+    padding: 8px 20px;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .button-list {
+    padding-top: 20px;
+  }
+  .com-container {
+    padding: 60px 20px;
+  }
+  .company-content {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+  }
+  .comp-heading {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .company-img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .udemy-business {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .businesstext {
+    padding-right: 90px;
+  }
+  .upskill {
+    font-weight: 700;
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+    padding-top: 10px;
+  }
+  .businesslist {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 22px;
+    padding-top: 20px;
+  }
+  .businessimg {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+    width: 192px;
+    height: 32px;
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  #btn1 {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 16px;
+    color: white;
+    background-color: #1c1d1f;
+    text-align: center;
+    padding: 10px;
+  }
+  #btn2 {
+    color: #1c1d1f;
+    background-color: white;
+    border: 1px solid #1c1d1f;
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 6px;
+  }
+  .buttons {
+    flex-direction: row;
+    padding-top: 20px;
+  }
+  .instructor-container {
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+  .instructor {
+    display: flex;
+    justify-content: center;
+  }
+  .becom-instr {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+  }
+  .inst-text {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  .strt {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 16px;
+    color: white;
+    background-color: #1c1d1f;
+    text-align: center;
+    padding: 10px;
+  }
+  .instructortext {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 30px;
+    margin-right: 100px;
+    padding-left: 50px;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+  }
+  .footer {
+    background-color: #1c1d1f;
+    color: white;
+  }
+  .footer-img {
+    /* color: black;
+      border: 1px #1c1d1f ; */
+    background-color: #1c1d1f;
+    color: #fff;
+  }
+  .test {
+    padding: 5px 0;
+  }
+  /* span {
+      text-align: center;
+      align-items: center;
+      white-space: nowrap;
+      color: #fff;
+  } */
+  .lan-btn {
+    background-color: #1c1d1f;
+    border-color: #fff;
+    background-image: url(./images/svgexport-34.svg);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding: 10px 40px;
+    color: #fff;
+  }
+  .containerbtn {
+    padding-left: 60px;
+  }
+  .inc {
+    padding-right: 30px;
+  }
+  .second-text {
+    padding-left: 25px;
+  }
+  .broad {
+    font-size: 30px;
+  }
+  .choose {
+    font-size: 20px;
+  }
+  .courses {
+    display: flex;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+    gap: 18px;
+  }
+  .pythonbtn {
+    color: #1c1d1f;
+    background-color: white;
+    border: 1px solid #1c1d1f;
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 6px;
+  }
+  .python-content {
+    border: #d1d7dc 1px solid;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  .python-container {
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .pytext {
+    padding: 5px 0;
+  }
+  .pythonimg {
+    display: flex;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .teacher-name {
+    color: #6a6f73;
+  }
+  .number {
+    color: #6a6f73;
+  }
+  .price {
+    font-weight: bold;
+  }
+  .bestbtn {
+    color: #1c1d1f;
+    background-color: #eceb98;
+    border: 1px solid #eceb98;
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+      Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+      segoe ui emoji, segoe ui symbol;
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 7px;
+  }
+  .student-container {
+    padding: 60px 25px 50px;
+    font-family: "udemy sans", -apple-system, BlinkMacSystemFont, Roboto,
+      "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji",
+      "segoe ui emoji", "segoe ui symbol";
+  }
+  .student-content {
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+  }
+  .student-text {
+    padding-bottom: 20px;
+    font-weight: 700;
+  }
+  .num {
+    color: rgb(180, 105, 14);
+  }
